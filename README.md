@@ -1,10 +1,10 @@
-# css-module-flow
-A flow-friendly module that represents a CSS module.
+# url-loader-flow
+A flow-friendly module that represents a URL Loader.
 
 ## Installation
 
 ```
-npm install css-module-flow
+npm install url-loader-flow
 ```
 
 ## Usage
@@ -13,14 +13,7 @@ This is not intended to be imported into any project, but instead referenced in 
 
 ```
 [options]
-module.name_mapper='^.*\.css$' -> 'css-module-flow'
+module.name_mapper='^.*\.svg$' -> 'url-loader-flow'
 ```
 
-This can be used with any CSS module format such as `.scss`, `.sass`, or `.pcss`
-
-The type `CSSModule` is also exported and can be imported like so:
-
-```js
-// @flow
-import type { CSSModule } from 'css-module-flow';
-```
+This can be used with any URL Loader module format such as `.svg`, `.jpg`, or `.png`

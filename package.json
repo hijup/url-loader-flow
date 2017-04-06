@@ -1,11 +1,11 @@
 {
-  "name": "css-module-flow",
+  "name": "url-loader-flow",
   "version": "1.0.0",
-  "description": "A flow-friendly module that represents a CSS module",
+  "description": "A flow-friendly module that represents a URL loader module",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ckknight/css-module-flow.git"
+    "url": "git+https://github.com/hijup/url-loader-flow.git"
   },
   "keywords": [
     "flow",
@@ -14,10 +14,10 @@
     "cssmodule",
     "module"
   ],
-  "author": "Cameron Knight <ckknight@gmail.com>",
+  "author": "Pahlevi Fikri Auliya <pahlevi.fikri.auliya@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ckknight/css-module-flow/issues"
+    "url": "https://github.com/hijup/url-loader-flow/issues"
   },
-  "homepage": "https://github.com/ckknight/css-module-flow#readme"
+  "homepage": "https://github.com/hijup/url-loader-flow#readme"
 }
